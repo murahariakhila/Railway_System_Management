@@ -1,1 +1,31 @@
 
+# Railway Management System
+
+A web-based Railway Management System developed using PHP, MySQL, XAMPP, and phpMyAdmin. The system manages train schedules, passenger bookings, and railway operations efficiently.
+
+## Technologies Used
+- PHP
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- XAMPP
+- phpMyAdmin
+
+## Features
+- Train Search
+- Ticket Booking
+- Passenger Management
+- Train Schedule Management
+- Seat Availability Checking
+
+## Screenshots
+
+### Homepage
+![Homepage](images/homepage.png)
+
+### Train Search
+![Search](images/search.png)
+
+### Search Results
+![Search Results](images/search_results.png)
