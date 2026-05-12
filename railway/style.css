@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #eef2f7;
+text-align: center;
+}
+h2 {
+    margin-top: 30px;
+}
+
+/* HEADER */
+.header {
+    background: #1f4e8c;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1474487548417-781cb71495f3') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* SEARCH */
+.search-box {
+    background: white;
+    width: 70%;
+    margin: -40px auto 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+}
+
+.search-box input {
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTONS */
+.btn {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.book-btn {
+    background: #28a745;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* MAIN LAYOUT */
+.main-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.left-box {
+    width: 30%;
+}
+
+/* RIGHT SIDE */
+.right-box {
+    width: 70%;
+}
+
+/* BOOKING CARD */
+.booking-card {
+    background: white;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* TABLE */
+.right-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+}
+.booking-card {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+th {
+    background: #1f4e8c;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    background: #1f4e8c;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
